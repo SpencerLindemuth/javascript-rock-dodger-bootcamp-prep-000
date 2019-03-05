@@ -154,7 +154,7 @@ function moveDodger(e) {
       }
       **/
 
-      if(key !== LEFT_ARROW){
+      if(key !== LEFT_ARROW && key !== RIGHT_ARROW){
         e.preventDefault()
         e.stopPropagation()
       }
