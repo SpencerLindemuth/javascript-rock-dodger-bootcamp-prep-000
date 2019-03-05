@@ -147,18 +147,11 @@ function moveDodger(e) {
    */
 
   var key = e.which
-/**
+
       if ([LEFT_ARROW, RIGHT_ARROW].indexOf(key) > -1) {
         e.preventDefault()
         e.stopPropagation()
       }
-      **/
-
-      if(key !== LEFT_ARROW && key !== RIGHT_ARROW){
-        e.preventDefault()
-        e.stopPropagation()
-      }
-
 
      if(e.which === LEFT_ARROW){
        moveDodgerLeft()
