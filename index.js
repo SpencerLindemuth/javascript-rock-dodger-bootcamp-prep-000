@@ -146,9 +146,20 @@ function moveDodger(e) {
    * And be sure to use the functions declared below!
    */
 
-   var key = e.which
+  /** var key = e.which
 
       if ([LEFT_ARROW, RIGHT_ARROW].indexOf(key) > -1) {
+        e.preventDefault()
+        e.stopPropagation()
+      }
+      **/
+      
+      if(key !== LEFT_ARROW){
+        e.preventDefault()
+        e.stopPropagation()
+      }
+
+      if(key !== RIGHT_ARROW){
         e.preventDefault()
         e.stopPropagation()
       }
