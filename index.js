@@ -153,7 +153,7 @@ function moveDodger(e) {
         e.stopPropagation()
       }
       **/
-      
+
       if(key !== LEFT_ARROW){
         e.preventDefault()
         e.stopPropagation()
