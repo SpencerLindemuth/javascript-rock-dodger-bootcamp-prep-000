@@ -148,17 +148,17 @@ function moveDodger(e) {
 
    var key = e.which
 
-  if ([LEFT_ARROW, RIGHT_ARROW].indexOf(key) > -1) {
-    e.preventDefault()
-    e.stopPropagation()
-  }
+      if ([LEFT_ARROW, RIGHT_ARROW].indexOf(key) > -1) {
+        e.preventDefault()
+        e.stopPropagation()
+      }
 
      if(e.which === LEFT_ARROW){
        moveDodgerLeft()
      }
      else if(e.which === RIGHT_ARROW){
        moveDodgerRight()
-}
+     }
 
 }
 
